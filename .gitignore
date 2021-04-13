@@ -26,3 +26,4 @@ Makefile
 Makefile.in
 *.la
 *.lo
+config.log

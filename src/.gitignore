@@ -3,3 +3,4 @@ xid
 xid-light
 tests
 *.trs
+*.o

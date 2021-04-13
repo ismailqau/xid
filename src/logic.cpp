@@ -80,7 +80,7 @@ Json::Value
 XidGame::GetCustomStateData (xaya::Game& game, const JsonStateFromDatabase& cb)
 {
   return SQLiteGame::GetCustomStateData (game, "data",
-    [this, cb] (const xaya::SQLiteDatabase& db)
+    [cb] (const xaya::SQLiteDatabase& db)
       {
         return cb (db);
       });
